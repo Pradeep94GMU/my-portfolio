@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Symptom Checker API",
     description: "🩺 Check symptoms and get possible illness matches.",
-    githubLink: "#",
+    githubLink: "https://github.com/Pradeep94GMU/symptom-checker-api",
     demoLink: "#"
   },
   {
