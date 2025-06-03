@@ -6,8 +6,9 @@ function ProjectCard({ project }) {
       <h2>{project.icon} {project.title}</h2>
       <p>{project.description}</p>
       <div className="buttons">
-        <a href={project.demoLink}>Live Demo</a>
-        <a href={project.githubLink}>GitHub Code</a>
+        <a href={project.githubLink} target="_blank" rel="noreferrer">GitHub Code</a>
+        <a href={project.demoLink} target="_blank" rel="noreferrer">Live Demo</a>
+
       </div>
     </div>
   );
